@@ -1,0 +1,159 @@
+body{
+    background-color: hsl(257, 40%, 49%);
+    font-family: 'Open Sans';
+}
+.bg1{
+    width: 76.3%;
+    margin-top: -0.8%;
+    margin-left: -0.5%;
+    z-index: 0;
+    position: absolute;
+}
+.bg2{
+    display: none;
+}
+.logo,.mockups{
+    display: block;
+}
+.logo{
+    width: 10%;
+    margin-top: 3%;
+    padding-bottom: 5%;
+}
+.container{
+    padding-left: 5%;
+    z-index: 1;
+    position: absolute;
+}
+.mockups{
+    width: 45%;
+    margin-bottom: 2%;
+}
+.text{
+    width: 45%;
+    margin-left: 5%;
+    margin-top: 2%;
+    color: white;
+}
+.mockups,.text{
+    display: inline-block;
+    vertical-align: top;
+}
+button{
+    margin-top: 3%;
+    box-shadow: 0px 5px 5px hsl(257, 40%, 49%);
+    border-radius: 25px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    background-color: hsl(0, 0%, 95%);
+    color:  hsl(257, 40%, 49%);
+}
+h2{
+    font-family: 'Poppins';
+    font-size: xx-large;
+    width: 60%;
+}
+.text p{
+    width: 75%;
+    font-size: 15px;
+}
+/* .icon, .content{
+    display: inline;
+} */
+.icon{
+    margin-top: 42%;
+    margin-left: 80%;
+    z-index: 1;
+    position: absolute;
+}
+i{
+    color: white;
+    border: 1px solid;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+i:hover{
+    color:hsl(300, 69%, 71%);
+    cursor: pointer;
+}
+.fa-instagram, .fa-twitter{
+    padding: 6px;
+}
+.fa-facebook-f{
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+button:hover{
+    background-color: hsl(300, 69%, 71%);
+    color:  hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('static/OpenSans/OpenSans-Regular.ttf');
+    weight:400;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('static/Poppins/Poppins-Regular.ttf');
+    weight:400;
+}
+@media all and (max-width: 375px)
+{
+    .bg1{
+        display: none;
+    }
+    .bg2{
+        display: block;
+        z-index: 0;
+        position: absolute;
+        margin-top: -2%;
+        margin-left: -2%;
+    }
+    .logo{
+        width: 40%;
+        margin-top: 8%;
+        padding-bottom: 17%;
+    }
+    .mockups{
+        width: 90%;
+        margin-bottom: 2%;
+        margin-left: 3.5%;
+    }
+    .text{
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 15%;
+        color: white;
+        text-align: center;
+    }
+    .mockups,.text{
+        display: block;
+    }
+    h2{
+        font-family: 'Poppins';
+        margin-left: 5%;
+        font-size: 22px;
+        width: 80%;
+    }
+    .text p{
+        width: 90%;
+        font-size: 15px;
+    }
+    button{
+        width: 60%;
+        margin-bottom: 30%;
+    }
+    .icon{
+        margin-top: 185%;
+        margin-left: 35%;
+        z-index: 1;
+        position: absolute;
+    }
+}
